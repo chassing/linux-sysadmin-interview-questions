@@ -36,6 +36,7 @@ The majority of the questions were collected from:
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP?
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * What is a level 0 backup? What is an incremental backup?
+* Describe the general file system hierarchy of a Linux system.
 
 
 ####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
@@ -54,6 +55,8 @@ The majority of the questions were collected from:
 * What Unix/Linux commands will alter a file's ownership, file's permissions?
 * What does the permission 0750 on a file mean?
 * What does the permission 0750 on a directory mean?
+* How to add a new system user without login permissions?
+* How to add/remove a group from a user?
 
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
@@ -69,6 +72,7 @@ The majority of the questions were collected from:
 * What is an A record, a NS record, a PTR record, a CNAME record, a MX record?
 * What is the sticky bit?
 * What is the difference between hardlink and symlink? What happens when you remove the source to a symlink/hardlink?
+* Howto force/trigger a file system check on next reboot?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
@@ -97,6 +101,8 @@ The majority of the questions were collected from:
 * What command is used to show the route table for a machine?
 * A TCP connection on a network can be uniquely defined by 4 things. What are those things?
 * When a client running a web browser connects to a web server, what is the source port and what is the destination port of the connection?
+* How do you add an IPv6 address to a specific interface?
+* You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmg: operation not permitted```. What could be wrong?
 
 
 ####[[⬆]](#toc) <a name='devop'>DevOp Questions:</a>
