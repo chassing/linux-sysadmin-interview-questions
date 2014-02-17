@@ -6,7 +6,7 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
 
 ## <a name='toc'>Table of Contents</a>
 
-  1. [Original Contributors](#contributors)
+  1. [Contributors](#contributors)
   1. [General Questions](#simple)
   1. [Simple Linux Questions](#simple)
   1. [Medium Linux Questions](#medium)
@@ -18,7 +18,9 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
   1. [Other Great References](#references)
 
 
-####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
+####[[⬆]](#toc) <a name='contributors'>Contributors:</a>
+
+* [@moregeek](http://github.com/moregeek)
 
 The majority of the questions were collected from:
 
