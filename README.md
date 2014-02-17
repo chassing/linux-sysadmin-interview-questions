@@ -1,7 +1,7 @@
 linux-sysadmin-interview-questions
 ==================================
 
-A collection of linux sysadmin/devop interview questions. Feel free to contribute via pull requests or email messages.
+A collection of linux sysadmin/devop interview questions. Feel free to contribute via pull requests, issues or email messages.
 
 
 ## <a name='toc'>Table of Contents</a>
