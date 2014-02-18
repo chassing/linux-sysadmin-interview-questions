@@ -24,6 +24,7 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
 * [@typhonius](https://github.com/typhonius)
 * martin
 * [@negesti](https://github.com/negesti)
+* peter
 
 The majority of the questions were collected from:
 
@@ -85,6 +86,7 @@ The majority of the questions were collected from:
 * What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
 * Howto force/trigger a file system check on next reboot?
 * What is SNMP and what is it used for?
+* What is a runlevel and how to get the current runlevel?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
