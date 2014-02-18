@@ -7,7 +7,7 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
 ## <a name='toc'>Table of Contents</a>
 
   1. [Contributors](#contributors)
-  1. [General Questions](#simple)
+  1. [General Questions](#general)
   1. [Simple Linux Questions](#simple)
   1. [Medium Linux Questions](#medium)
   1. [Hard Linux Questions](#hard)
@@ -28,7 +28,7 @@ The majority of the questions were collected from:
 * https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
 
 
-####[[⬆]](#toc) <a name='simple'>General Questions:</a>
+####[[⬆]](#toc) <a name='general'>General Questions:</a>
 
 * What did you learn yesterday/this week?
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
@@ -63,11 +63,12 @@ The majority of the questions were collected from:
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
-* What does the ```tee``` command?
-* What does the ```awk``` command?
-* What does the ```tr``` command?
-* What does the ```cut``` command?
-* What does the ```tuc``` command?
+* What do the following commands do?
+ * ```tee```
+ * ```awk```
+ * ```tr```
+ * ```cut```
+ * ```tac```
 * What does a ```&``` after a command do?
 * What is a packet filter and how does it work?
 * What is swap and what is it used for?
