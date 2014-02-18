@@ -23,6 +23,7 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
 * [@moregeek](https://github.com/moregeek)
 * [@typhonius](https://github.com/typhonius)
 * martin
+* [@negesti](https://github.com/negesti)
 
 The majority of the questions were collected from:
 
@@ -57,10 +58,13 @@ The majority of the questions were collected from:
 * What command will show the available disk space on the Unix/Linux system?
 * What command is used to lookup DNS records?
 * What Unix/Linux commands will alter a files ownership, files permissions?
+* What does ```chmod +x FILENAME```do?
 * What does the permission 0750 on a file mean?
 * What does the permission 0750 on a directory mean?
 * How to add a new system user without login permissions?
 * How to add/remove a group from a user?
+* What is a bash alias?
+* How do you set the mail address of the root/a user?
 
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
@@ -71,6 +75,8 @@ The majority of the questions were collected from:
  * ```tr```
  * ```cut```
  * ```tac```
+ * ```curl```
+ * ```wget```
 * What does a ```&``` after a command do?
 * What is a packet filter and how does it work?
 * What is swap and what is it used for?
@@ -78,6 +84,7 @@ The majority of the questions were collected from:
 * What is the sticky bit?
 * What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
 * Howto force/trigger a file system check on next reboot?
+* What is SNMP and what is it used for?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
