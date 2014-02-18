@@ -20,7 +20,9 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
 
 ####[[⬆]](#toc) <a name='contributors'>Contributors:</a>
 
-* [@moregeek](http://github.com/moregeek)
+* [@moregeek](https://github.com/moregeek)
+* [@typhonius](https://github.com/typhonius)
+* martin
 
 The majority of the questions were collected from:
 
@@ -33,9 +35,9 @@ The majority of the questions were collected from:
 * What did you learn yesterday/this week?
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
 * What function does DNS play on a network?
-* What is a proxy and how does it work?
 * What is HTTP?
-* What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP?
+* What is an HTTP proxy and how does it work?
+* What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP!
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * What is a level 0 backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
@@ -46,7 +48,7 @@ The majority of the questions were collected from:
 * What is the name and the UID of the administrator user?
 * How to list all files, including hidden one, in a directory?
 * What is the Unix/Linux command to remove a directory and its contents?
-* What command will show you free/used memory? Does free memory exists on linux?
+* Which command will show you free/used memory? Does free memory exist on Linux?
 * How to search for the string "my konfi is the best" in files of a directory recursively?
 * How to connect to a remote server or what is SSH?
 * How to get all environment variables and how can you use them?
@@ -54,7 +56,7 @@ The majority of the questions were collected from:
 * What happens if I type TAB-TAB?
 * What command will show the available disk space on the Unix/Linux system?
 * What command is used to lookup DNS records?
-* What Unix/Linux commands will alter a file's ownership, file's permissions?
+* What Unix/Linux commands will alter a files ownership, files permissions?
 * What does the permission 0750 on a file mean?
 * What does the permission 0750 on a directory mean?
 * How to add a new system user without login permissions?
@@ -72,9 +74,9 @@ The majority of the questions were collected from:
 * What does a ```&``` after a command do?
 * What is a packet filter and how does it work?
 * What is swap and what is it used for?
-* What is an A record, a NS record, a PTR record, a CNAME record, a MX record?
+* What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
 * What is the sticky bit?
-* What is the difference between hardlink and symlink? What happens when you remove the source to a symlink/hardlink?
+* What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
 * Howto force/trigger a file system check on next reboot?
 
 
@@ -84,10 +86,10 @@ The majority of the questions were collected from:
 * What is a tunnel and how you can bypass a http proxy?
 * What is the difference between IDS and IPS?
 * What shortcuts do you use on a regular basis?
-* What is the linux standard base?
+* What is the Linux Standard Base?
 * What is an atomic operation?
-* Your fresh configured http server is not running after a restart, what can you do?
-* What kind of keys are in ssh/authorized_keys and what it is used for?
+* Your freshly configured http server is not running after a restart, what can you do?
+* What kind of keys are in ~/.ssh/authorized_keys and what it is this file used for?
 * I've added my public ssh key into authorized_keys but I'm still getting a password prompt, what can be wrong?
 * Did you ever create RPM's, DEB's or solaris pkg's?
 
@@ -113,7 +115,7 @@ The majority of the questions were collected from:
 * Can you describe your workflow when you create a script?
 * What is GIT?
 * What is a dynamically/statically linked file?
-* What is "configure && make && make install"
+* What is "configure && make && make install"?
 * What is puppet/chef/ansible used for?
 * How do you create a new mysql user?
 * How do you create a new postgres user?
@@ -122,7 +124,7 @@ The majority of the questions were collected from:
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
-* A careless sysadmin executes the following command: ```chmod 444 chmod ``` - what do you do to fix this?
+* A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
 * I've lost my root password, what can I do?
 * I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
 
@@ -134,7 +136,7 @@ The majority of the questions were collected from:
 * Search for "my konfu is the best" in all *.py files.
 * Replace the occurrence of "my konfu is the best" with "I'm a linux jedi master" in all *.txt files.
 * :interrobang: more on files ... cut, tr, awk ...
-* Test port 443 on a machine with IP address X.X.X.X is reachable.
+* Test if port 443 on a machine with IP address X.X.X.X is reachable.
 * Get http://myinternal.webserver.local/test.html via telnet.
 * How to send an email without a mail client, just on the command line?
 * Write a get_prim python/perl/bash/pseudo script.
