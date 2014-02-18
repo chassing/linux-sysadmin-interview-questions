@@ -78,6 +78,8 @@ The majority of the questions were collected from:
  * ```tac```
  * ```curl```
  * ```wget```
+ * ```watch```
+ * ```tail```
 * What does a ```&``` after a command do?
 * What is a packet filter and how does it work?
 * What is swap and what is it used for?
