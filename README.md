@@ -25,6 +25,7 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
 * martin
 * [@negesti](https://github.com/negesti)
 * peter
+* [@andreashappe](https://github.com/andreashappe)
 
 The majority of the questions were collected from:
 
@@ -89,6 +90,8 @@ The majority of the questions were collected from:
 * Howto force/trigger a file system check on next reboot?
 * What is SNMP and what is it used for?
 * What is a runlevel and how to get the current runlevel?
+* What is SSH port forwarding?
+* What is the difference between local and remote port forwarding?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
@@ -107,6 +110,7 @@ The majority of the questions were collected from:
 
 ####[[⬆]](#toc) <a name='network'>Networking Questions:</a>
 
+* What is localhost and why would ```ping localhost``` fail?
 * What command is used to show all open ports and/or socket connections on a machine?
 * Is 300.168.0.123 a valid IPv4 address?
 * Which IP ranges/subnets are "private" or "non-routable" (RFC 1918)?
