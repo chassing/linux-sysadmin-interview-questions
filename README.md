@@ -38,6 +38,7 @@ The majority of the questions were collected from:
 
 * What did you learn yesterday/this week?
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
+* Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
 * What function does DNS play on a network?
 * What is HTTP?
 * What is an HTTP proxy and how does it work?
@@ -88,11 +89,13 @@ The majority of the questions were collected from:
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
 * What is the sticky bit?
 * What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
+* What is an inode and what fields are stored in an inode?
 * Howto force/trigger a file system check on next reboot?
 * What is SNMP and what is it used for?
 * What is a runlevel and how to get the current runlevel?
 * What is SSH port forwarding?
 * What is the difference between local and remote port forwarding?
+* What steps to add a user to a system without using useradd/adduser?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
@@ -107,6 +110,11 @@ The majority of the questions were collected from:
 * What kind of keys are in ~/.ssh/authorized_keys and what it is this file used for?
 * I've added my public ssh key into authorized_keys but I'm still getting a password prompt, what can be wrong?
 * Did you ever create RPM's, DEB's or solaris pkg's?
+* What does ```:(){ :|:& };:``` do on your system and why you would care about that?
+* How trace system call and signal?
+* What's happening when the Linux kernel is starting the OOM killer, how does it choose which process to kill first.
+
+
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
 
 * A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How you can close this bad socket/file descriptor without killing the process?
@@ -139,6 +147,10 @@ The majority of the questions were collected from:
 * How do you create a new mysql user?
 * How do you create a new postgres user?
 * What is a virtual IP address? What is a cluster?
+* How print the strings of printable characters in files?
+* How look shared library dependencies?
+* What is Automake and Autoconf?
+* ./configure shows an error that libfoobar is missing on your system, how could you fix this, what could be wrong?
 
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
@@ -146,6 +158,7 @@ The majority of the questions were collected from:
 * A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
 * I've lost my root password, what can I do?
 * I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
+* If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
 
 
 ####[[⬆]](#toc) <a name='demo'>Demo Time:</a>
