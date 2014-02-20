@@ -11,6 +11,7 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
   1. [Simple Linux Questions](#simple)
   1. [Medium Linux Questions](#medium)
   1. [Hard Linux Questions](#hard)
+  1. [Expert Linux Questions](#expert)
   1. [Networking Questions](#network)
   1. [DevOp Questions](#devop)
   1. [Fun Questions](#fun)
@@ -106,6 +107,9 @@ The majority of the questions were collected from:
 * What kind of keys are in ~/.ssh/authorized_keys and what it is this file used for?
 * I've added my public ssh key into authorized_keys but I'm still getting a password prompt, what can be wrong?
 * Did you ever create RPM's, DEB's or solaris pkg's?
+####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
+
+* A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How you can close this bad socket/file descriptor without killing the process?
 
 
 ####[[⬆]](#toc) <a name='network'>Networking Questions:</a>
