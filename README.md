@@ -38,6 +38,7 @@ The majority of the questions were collected from:
 
 * What did you learn yesterday/this week?
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
+* Tell me about the last major Linux project you finished.
 * Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
 * What function does DNS play on a network?
 * What is HTTP?
@@ -69,6 +70,9 @@ The majority of the questions were collected from:
 * How to add/remove a group from a user?
 * What is a bash alias?
 * How do you set the mail address of the root/a user?
+* What does CTRL-c do?
+* What is in /etc/services?
+* How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
 
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
@@ -96,6 +100,8 @@ The majority of the questions were collected from:
 * What is SSH port forwarding?
 * What is the difference between local and remote port forwarding?
 * What steps to add a user to a system without using useradd/adduser?
+* What is MAJOR and MINOR numbers of special files?
+* Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space.
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
@@ -113,6 +119,8 @@ The majority of the questions were collected from:
 * What does ```:(){ :|:& };:``` do on your system and why you would care about that?
 * How trace system call and signal?
 * What's happening when the Linux kernel is starting the OOM killer, how does it choose which process to kill first.
+* Describe the linux boot process with as much detail as possible, starting from when the system is powered on and ending when you get a prompt.
+* What's a chroot jail?
 
 
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
@@ -181,3 +189,4 @@ Some questions are 'borrowed' from other great references like:
 * https://github.com/darcyclarke/Front-end-Developer-Interview-Questions
 * https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
 * https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
+* http://slideshare.net/kavyasri790693/linux-admin-interview-questions
