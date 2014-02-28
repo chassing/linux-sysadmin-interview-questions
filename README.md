@@ -73,6 +73,8 @@ The majority of the questions were collected from:
 * What does CTRL-c do?
 * What is in /etc/services?
 * How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
+* What is the difference between UNIX and Linux
+* What is the difference between Telnet and SSH?
 
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
@@ -102,6 +104,7 @@ The majority of the questions were collected from:
 * What steps to add a user to a system without using useradd/adduser?
 * What is MAJOR and MINOR numbers of special files?
 * Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space.
+* What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
@@ -150,7 +153,7 @@ The majority of the questions were collected from:
 * Can you describe your workflow when you create a script?
 * What is GIT?
 * What is a dynamically/statically linked file?
-* What is "configure && make && make install"?
+* What does "configure && make && make install"?
 * What is puppet/chef/ansible used for?
 * How do you create a new mysql user?
 * How do you create a new postgres user?
@@ -159,6 +162,8 @@ The majority of the questions were collected from:
 * How look shared library dependencies?
 * What is Automake and Autoconf?
 * ./configure shows an error that libfoobar is missing on your system, how could you fix this, what could be wrong?
+* Advantages/disadvantages of script vs compiled program.
+* What is the difference between fork and thread? And parent and child process in fork system call?
 
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
@@ -179,7 +184,11 @@ The majority of the questions were collected from:
 * Test if port 443 on a machine with IP address X.X.X.X is reachable.
 * Get http://myinternal.webserver.local/test.html via telnet.
 * How to send an email without a mail client, just on the command line?
-* Write a get_prim python/perl/bash/pseudo script.
+* Write a ```get_prim``` method in python/perl/bash/pseudo.
+* Find all files which have been accessed within the last 30 days.
+* Explain the following command ```$(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
+* Write a script to list all the differences between two directories.
+* Write a program in any language you choose, to reverse a file.
 
 
 ####[[⬆]](#toc) <a name='references'>Other Great References:</a>
