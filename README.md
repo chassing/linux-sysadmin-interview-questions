@@ -90,6 +90,7 @@ The majority of the questions were collected from:
  * ```watch```
  * ```tail```
 * What does a ```&``` after a command do?
+* What does ```& disown``` after a command do?
 * What is a packet filter and how does it work?
 * What is swap and what is it used for?
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
@@ -104,7 +105,10 @@ The majority of the questions were collected from:
 * What steps to add a user to a system without using useradd/adduser?
 * What is MAJOR and MINOR numbers of special files?
 * Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space.
+* Describe a scenario when deleting a file, but 'df' not showing the space being freed.
+* Describe how 'ps' works.
 * What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
+* How to know which process listens on a specific port?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
@@ -124,6 +128,7 @@ The majority of the questions were collected from:
 * What's happening when the Linux kernel is starting the OOM killer, how does it choose which process to kill first.
 * Describe the linux boot process with as much detail as possible, starting from when the system is powered on and ending when you get a prompt.
 * What's a chroot jail?
+* When trying to umount a directory it says it's busy, how to find out which PID holds the directory?
 
 
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
@@ -186,7 +191,7 @@ The majority of the questions were collected from:
 * How to send an email without a mail client, just on the command line?
 * Write a ```get_prim``` method in python/perl/bash/pseudo.
 * Find all files which have been accessed within the last 30 days.
-* Explain the following command ```$(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
+* Explain the following command ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
 * Write a script to list all the differences between two directories.
 * Write a program in any language you choose, to reverse a file.
 
