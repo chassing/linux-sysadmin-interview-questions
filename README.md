@@ -21,12 +21,13 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
 
 ####[[⬆]](#toc) <a name='contributors'>Contributors:</a>
 
-* [@moregeek](https://github.com/moregeek)
-* [@typhonius](https://github.com/typhonius)
+* [moregeek](https://github.com/moregeek)
+* [typhonius](https://github.com/typhonius)
 * martin
-* [@negesti](https://github.com/negesti)
+* [negesti](https://github.com/negesti)
 * peter
-* [@andreashappe](https://github.com/andreashappe)
+* [andreashappe](https://github.com/andreashappe)
+* [quatrix](https://github.com/quatrix)
 
 The majority of the questions were collected from:
 
