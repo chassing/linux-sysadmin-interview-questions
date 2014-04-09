@@ -95,6 +95,7 @@ The majority of the questions were collected from:
 * What is a packet filter and how does it work?
 * What is swap and what is it used for?
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
+ * Are there any other RRs and what are they used for?
 * What is the sticky bit?
 * What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
 * What is an inode and what fields are stored in an inode?
