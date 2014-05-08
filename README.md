@@ -76,6 +76,7 @@ The majority of the questions were collected from:
 * How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
 * What is the difference between UNIX and Linux
 * What is the difference between Telnet and SSH?
+* Explain the three load averages and what do they indicate
 
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
@@ -141,6 +142,7 @@ The majority of the questions were collected from:
 ####[[⬆]](#toc) <a name='network'>Networking Questions:</a>
 
 * What is localhost and why would ```ping localhost``` fail?
+* What is the similarity between "ping" & "traceroute" ? How is traceroute able to find the hops.
 * What command is used to show all open ports and/or socket connections on a machine?
 * Is 300.168.0.123 a valid IPv4 address?
 * Which IP ranges/subnets are "private" or "non-routable" (RFC 1918)?
@@ -196,6 +198,7 @@ The majority of the questions were collected from:
 * Explain the following command ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
 * Write a script to list all the differences between two directories.
 * Write a program in any language you choose, to reverse a file.
+* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occured every hour or a specific hour
 
 
 ####[[⬆]](#toc) <a name='references'>Other Great References:</a>
