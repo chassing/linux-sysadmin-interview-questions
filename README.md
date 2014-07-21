@@ -182,6 +182,7 @@ The majority of the questions were collected from:
 * I've lost my root password, what can I do?
 * I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
 * If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
+* You come across a random computer and it appears to be a command console for the universe. What is the first thing you type?
 
 
 ####[[⬆]](#toc) <a name='demo'>Demo Time:</a>
