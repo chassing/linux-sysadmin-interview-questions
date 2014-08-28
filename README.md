@@ -177,7 +177,7 @@ The majority of the questions were collected from:
 * Advantages/disadvantages of script vs compiled program.
 * What is the difference between fork and thread? And parent and child process in fork system call?
 * What's the relationship between continuous delivery and DevOps?
-* What are the important aspects of a system of continous integration and depolyment?
+* What are the important aspects of a system of continous integration and deployment?
 
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
