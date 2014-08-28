@@ -133,6 +133,8 @@ The majority of the questions were collected from:
 * Describe the linux boot process with as much detail as possible, starting from when the system is powered on and ending when you get a prompt.
 * What's a chroot jail?
 * When trying to umount a directory it says it's busy, how to find out which PID holds the directory?
+* What's LD_PRELOAD and when it's used?
+* You run a binary and nothing happens, how do you debug what's doing?
 
 
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
@@ -174,6 +176,8 @@ The majority of the questions were collected from:
 * ./configure shows an error that libfoobar is missing on your system, how could you fix this, what could be wrong?
 * Advantages/disadvantages of script vs compiled program.
 * What is the difference between fork and thread? And parent and child process in fork system call?
+* What's the relationship between continuous delivery and DevOps?
+* What are the important aspects of a system of continous integration and depolyment?
 
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
@@ -183,6 +187,7 @@ The majority of the questions were collected from:
 * I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
 * If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
 * You come across a random computer and it appears to be a command console for the universe. What is the first thing you type?
+* Tell me about a creative way that you've used SSH?
 
 
 ####[[⬆]](#toc) <a name='demo'>Demo Time:</a>
