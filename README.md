@@ -42,6 +42,7 @@ The majority of the questions were collected from:
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
 * Tell me about the last major Linux project you finished.
 * Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
+* Why we must choose you?
 * What function does DNS play on a network?
 * What is HTTP?
 * What is an HTTP proxy and how does it work?
