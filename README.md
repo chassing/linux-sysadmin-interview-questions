@@ -46,6 +46,7 @@ The majority of the questions were collected from:
 * What function does DNS play on a network?
 * What is HTTP?
 * What is an HTTP proxy and how does it work?
+* Describe briefly how HTTPS works.
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP!
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * What is a level 0 backup? What is an incremental backup?
