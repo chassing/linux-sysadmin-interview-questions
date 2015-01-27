@@ -99,7 +99,8 @@ The majority of the questions were collected from:
 * What is a packet filter and how does it work?
 * What is swap and what is it used for?
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
- * Are there any other RRs and what are they used for?
+* Are there any other RRs and what are they used for?
+* What is a Split-Horizon DNS?
 * What is the sticky bit?
 * What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
 * What is an inode and what fields are stored in an inode?
@@ -115,6 +116,8 @@ The majority of the questions were collected from:
 * Describe how 'ps' works.
 * What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
 * How to know which process listens on a specific port?
+* You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it?
+* Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does.
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
@@ -138,7 +141,6 @@ The majority of the questions were collected from:
 * What's LD_PRELOAD and when it's used?
 * You run a binary and nothing happens, how do you debug what's doing?
 
-
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
 
 * A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How you can close this bad socket/file descriptor without killing the process?
@@ -160,7 +162,8 @@ The majority of the questions were collected from:
 * When a client running a web browser connects to a web server, what is the source port and what is the destination port of the connection?
 * How do you add an IPv6 address to a specific interface?
 * You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
-
+* What is SNAT and when should be used?
+* Explain how could you login into a Linux system that DROPs all new incomming packets using a SSH tunnel.
 
 ####[[⬆]](#toc) <a name='devop'>DevOp Questions:</a>
 
@@ -190,7 +193,7 @@ The majority of the questions were collected from:
 * If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
 * You come across a random computer and it appears to be a command console for the universe. What is the first thing you type?
 * Tell me about a creative way that you've used SSH?
-
+* You have deleted by error a running script, what could you do to restore it?
 
 ####[[⬆]](#toc) <a name='demo'>Demo Time:</a>
 
