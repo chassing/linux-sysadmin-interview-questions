@@ -163,7 +163,7 @@ The majority of the questions were collected from:
 * How do you add an IPv6 address to a specific interface?
 * You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
 * What is SNAT and when should be used?
-* Explain how could you login into a Linux system that DROPs all new incomming packets using a SSH tunnel.
+* Explain how could you ssh login into a Linux system that DROPs all new incomming packets using a SSH tunnel.
 
 ####[[⬆]](#toc) <a name='devop'>DevOp Questions:</a>
 
