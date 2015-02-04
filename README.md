@@ -115,6 +115,8 @@ The majority of the questions were collected from:
 * Describe how 'ps' works.
 * What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
 * How to know which process listens on a specific port?
+* Describe briefly the steps you need to take in order to create and install a valid certificate for the site https://foo.example.com.
+* Can you have several HTTPS virtual hosts sharing the same IP?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
