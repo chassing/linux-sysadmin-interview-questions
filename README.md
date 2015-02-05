@@ -118,6 +118,9 @@ The majority of the questions were collected from:
 * How to know which process listens on a specific port?
 * You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it?
 * Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does.
+* Describe briefly the steps you need to take in order to create and install a valid certificate for the site https://foo.example.com.
+* Can you have several HTTPS virtual hosts sharing the same IP?
+* What is a wildcard certificate?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
