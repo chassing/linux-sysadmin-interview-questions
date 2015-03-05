@@ -29,6 +29,7 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
 * [andreashappe](https://github.com/andreashappe)
 * [quatrix](https://github.com/quatrix)
 * [biyanisuraj](https://github.com/biyanisuraj)
+* [pedroguima](https://github.com/pedroguima)
 
 The majority of the questions were collected from:
 
@@ -97,11 +98,13 @@ The majority of the questions were collected from:
 * What does a ```&``` after a command do?
 * What does ```& disown``` after a command do?
 * What is a packet filter and how does it work?
+* What is Virtual Memory?
 * What is swap and what is it used for?
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
 * Are there any other RRs and what are they used for?
 * What is a Split-Horizon DNS?
 * What is the sticky bit?
+* What does the immutable bit to a file?
 * What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
 * What is an inode and what fields are stored in an inode?
 * Howto force/trigger a file system check on next reboot?
@@ -115,12 +118,17 @@ The majority of the questions were collected from:
 * Describe a scenario when deleting a file, but 'df' not showing the space being freed.
 * Describe how 'ps' works.
 * What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
+* Explain briefly each one of the process states.
 * How to know which process listens on a specific port?
 * You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it?
 * Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does.
 * Describe briefly the steps you need to take in order to create and install a valid certificate for the site https://foo.example.com.
 * Can you have several HTTPS virtual hosts sharing the same IP?
 * What is a wildcard certificate?
+* Which Linux file types to you know?
+* What is the difference between a process and a thread? And parent and child processes after a fork system call?
+* What's the difference between exec and fork?
+* What is "nohup" used for?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
@@ -136,8 +144,9 @@ The majority of the questions were collected from:
 * I've added my public ssh key into authorized_keys but I'm still getting a password prompt, what can be wrong?
 * Did you ever create RPM's, DEB's or solaris pkg's?
 * What does ```:(){ :|:& };:``` do on your system and why you would care about that?
-* How trace system call and signal?
-* What's happening when the Linux kernel is starting the OOM killer, how does it choose which process to kill first.
+* How do you catch a Linux signal on a script? 
+* Can you catch a SIGKILL?
+* What's happening when the Linux kernel is starting the OOM killer and how does it choose which process to kill first?
 * Describe the linux boot process with as much detail as possible, starting from when the system is powered on and ending when you get a prompt.
 * What's a chroot jail?
 * When trying to umount a directory it says it's busy, how to find out which PID holds the directory?
@@ -183,7 +192,6 @@ The majority of the questions were collected from:
 * What is Automake and Autoconf?
 * ./configure shows an error that libfoobar is missing on your system, how could you fix this, what could be wrong?
 * Advantages/disadvantages of script vs compiled program.
-* What is the difference between fork and thread? And parent and child process in fork system call?
 * What's the relationship between continuous delivery and DevOps?
 * What are the important aspects of a system of continous integration and deployment?
 
