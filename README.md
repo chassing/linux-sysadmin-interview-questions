@@ -13,7 +13,7 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
   1. [Hard Linux Questions](#hard)
   1. [Expert Linux Questions](#expert)
   1. [Networking Questions](#network)
-  1. [DevOp Questions](#devop)
+  1. [DevOps Questions](#devop)
   1. [Fun Questions](#fun)
   1. [Demo Time](#demo)
   1. [Other Great References](#references)
@@ -124,8 +124,12 @@ The majority of the questions were collected from:
 * What is a wildcard certificate?
 * Which Linux file types to you know?
 * What is the difference between a process and a thread? And parent and child processes after a fork system call?
-* What's the difference between exec and fork?
+* What is the difference between exec and fork?
 * What is "nohup" used for?
+* What is the difference between these two commands?
+ * ```myvar=hello```
+ * ```export myvar=hello```
+
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
@@ -174,7 +178,7 @@ The majority of the questions were collected from:
 * You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
 
 
-####[[⬆]](#toc) <a name='devop'>DevOp Questions:</a>
+####[[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
 
 * Can you describe your workflow when you create a script?
 * What is GIT?
