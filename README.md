@@ -1,7 +1,7 @@
-Linux System Administrator/DevOp Interview Questions
+Linux System Administrator/DevOps Interview Questions
 ====================================================
 
-A collection of linux sysadmin/devop interview questions. Feel free to contribute via pull requests, issues or email messages.
+A collection of linux sysadmin/devops interview questions. Feel free to contribute via pull requests, issues or email messages.
 
 
 ## <a name='toc'>Table of Contents</a>
@@ -155,6 +155,7 @@ The majority of the questions were collected from:
 * When trying to umount a directory it says it's busy, how to find out which PID holds the directory?
 * What's LD_PRELOAD and when it's used?
 * You ran a binary and nothing happened. How would you debug this?
+* What are cgroups? Can you specify a scenario where you could use them?
 
 
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
