@@ -1,7 +1,7 @@
-Linux System Administrator/DevOp Interview Questions
+Linux System Administrator/DevOps Interview Questions
 ====================================================
 
-A collection of linux sysadmin/devop interview questions. Feel free to contribute via pull requests, issues or email messages.
+A collection of linux sysadmin/devops interview questions. Feel free to contribute via pull requests, issues or email messages.
 
 
 ## <a name='toc'>Table of Contents</a>
@@ -13,7 +13,8 @@ A collection of linux sysadmin/devop interview questions. Feel free to contribut
   1. [Hard Linux Questions](#hard)
   1. [Expert Linux Questions](#expert)
   1. [Networking Questions](#network)
-  1. [DevOp Questions](#devop)
+  1. [MySQL Questions](#mysql)
+  1. [DevOps Questions](#devop)
   1. [Fun Questions](#fun)
   1. [Demo Time](#demo)
   1. [Other Great References](#references)
@@ -48,7 +49,7 @@ The majority of the questions were collected from:
 * What is HTTP?
 * What is an HTTP proxy and how does it work?
 * Describe briefly how HTTPS works.
-* What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP!
+* What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * What is a level 0 backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
@@ -63,10 +64,10 @@ The majority of the questions were collected from:
 * How to search for the string "my konfi is the best" in files of a directory recursively?
 * How to connect to a remote server or what is SSH?
 * How to get all environment variables and how can you use them?
-* I get "command not found" for ```ifconfig -a```. What can be wrong?
+* I get "command not found" when I run ```ifconfig -a```. What can be wrong?
 * What happens if I type TAB-TAB?
 * What command will show the available disk space on the Unix/Linux system?
-* What command is used to lookup DNS records?
+* What commands do you know that can be used to check DNS records?
 * What Unix/Linux commands will alter a files ownership, files permissions?
 * What does ```chmod +x FILENAME```do?
 * What does the permission 0750 on a file mean?
@@ -78,9 +79,10 @@ The majority of the questions were collected from:
 * What does CTRL-c do?
 * What is in /etc/services?
 * How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
-* What is the difference between UNIX and Linux
+* What is the difference between UNIX and Linux.
 * What is the difference between Telnet and SSH?
-* Explain the three load averages and what do they indicate
+* Explain the three load averages and what do they indicate.
+
 
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
@@ -112,7 +114,7 @@ The majority of the questions were collected from:
 * What is a runlevel and how to get the current runlevel?
 * What is SSH port forwarding?
 * What is the difference between local and remote port forwarding?
-* What steps to add a user to a system without using useradd/adduser?
+* What are the steps to add a user to a system without using useradd/adduser?
 * What is MAJOR and MINOR numbers of special files?
 * Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space.
 * Describe a scenario when deleting a file, but 'df' not showing the space being freed.
@@ -127,8 +129,12 @@ The majority of the questions were collected from:
 * What is a wildcard certificate?
 * Which Linux file types to you know?
 * What is the difference between a process and a thread? And parent and child processes after a fork system call?
-* What's the difference between exec and fork?
+* What is the difference between exec and fork?
 * What is "nohup" used for?
+* What is the difference between these two commands?
+ * ```myvar=hello```
+ * ```export myvar=hello```
+
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
@@ -143,41 +149,56 @@ The majority of the questions were collected from:
 * What kind of keys are in ~/.ssh/authorized_keys and what it is this file used for?
 * I've added my public ssh key into authorized_keys but I'm still getting a password prompt, what can be wrong?
 * Did you ever create RPM's, DEB's or solaris pkg's?
-* What does ```:(){ :|:& };:``` do on your system and why you would care about that?
-* How do you catch a Linux signal on a script? 
+* What does ```:(){ :|:& };:``` do on your system?
+* How do you catch a Linux signal on a script?
 * Can you catch a SIGKILL?
 * What's happening when the Linux kernel is starting the OOM killer and how does it choose which process to kill first?
 * Describe the linux boot process with as much detail as possible, starting from when the system is powered on and ending when you get a prompt.
 * What's a chroot jail?
 * When trying to umount a directory it says it's busy, how to find out which PID holds the directory?
 * What's LD_PRELOAD and when it's used?
-* You run a binary and nothing happens, how do you debug what's doing?
+* You ran a binary and nothing happened. How would you debug this?
+* What are cgroups? Can you specify a scenario where you could use them?
+
 
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
 
-* A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How you can close this bad socket/file descriptor without killing the process?
+* A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How can you close this bad socket/file descriptor without killing the process?
 
 
 ####[[⬆]](#toc) <a name='network'>Networking Questions:</a>
 
 * What is localhost and why would ```ping localhost``` fail?
 * What is the similarity between "ping" & "traceroute" ? How is traceroute able to find the hops.
-* What command is used to show all open ports and/or socket connections on a machine?
+* What is the command used to show all open ports and/or socket connections on a machine?
 * Is 300.168.0.123 a valid IPv4 address?
 * Which IP ranges/subnets are "private" or "non-routable" (RFC 1918)?
 * What is a VLAN?
 * What is ARP and what is it used for?
 * What is the difference between TCP and UDP?
 * What is the purpose of a default gateway?
-* What command is used to show the route table for a machine?
+* What is command used to show the routing table on a Linux box?
 * A TCP connection on a network can be uniquely defined by 4 things. What are those things?
 * When a client running a web browser connects to a web server, what is the source port and what is the destination port of the connection?
 * How do you add an IPv6 address to a specific interface?
 * You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
 * What is SNAT and when should be used?
 * Explain how could you ssh login into a Linux system that DROPs all new incomming packets using a SSH tunnel.
+* How do you stop a DDoS?
 
-####[[⬆]](#toc) <a name='devop'>DevOp Questions:</a>
+
+####[[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
+
+* How do you create a user?
+* How do you provide privileges to a user?
+* What is the difference between a "left" and a "right" join?
+* Explain briefly the differences between InnoDB and MyISAM.
+* Describe briefly the steps you need to follow in order to create a simple master/slave cluster.
+* Why should you run "mysql_secure_installation" after installing MySQL?
+* How do you check which jobs are running?
+
+
+####[[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
 
 * Can you describe your workflow when you create a script?
 * What is GIT?
@@ -206,13 +227,13 @@ The majority of the questions were collected from:
 * Tell me about a creative way that you've used SSH?
 * You have deleted by error a running script, what could you do to restore it?
 
+
 ####[[⬆]](#toc) <a name='demo'>Demo Time:</a>
 
 * Unpack test.tar.gz without man pages or google.
 * Remove all "*.pyc" files from testdir recursively?
 * Search for "my konfu is the best" in all *.py files.
 * Replace the occurrence of "my konfu is the best" with "I'm a linux jedi master" in all *.txt files.
-* :interrobang: more on files ... cut, tr, awk ...
 * Test if port 443 on a machine with IP address X.X.X.X is reachable.
 * Get http://myinternal.webserver.local/test.html via telnet.
 * How to send an email without a mail client, just on the command line?
@@ -220,8 +241,7 @@ The majority of the questions were collected from:
 * Find all files which have been accessed within the last 30 days.
 * Explain the following command ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
 * Write a script to list all the differences between two directories.
-* Write a program in any language you choose, to reverse a file.
-* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occured every hour or a specific hour
+* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occured every hour or a specific hour.
 
 
 ####[[⬆]](#toc) <a name='references'>Other Great References:</a>
