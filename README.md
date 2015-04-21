@@ -134,7 +134,8 @@ The majority of the questions were collected from:
 * What is the difference between these two commands?
  * ```myvar=hello```
  * ```export myvar=hello```
-
+* How many NTP servers would you configure in your local ntp.conf?
+* What does the column 'reach' mean in ```ntpq -p``` output?
 
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
