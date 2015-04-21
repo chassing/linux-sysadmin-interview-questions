@@ -31,11 +31,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * [quatrix](https://github.com/quatrix)
 * [biyanisuraj](https://github.com/biyanisuraj)
 * [pedroguima](https://github.com/pedroguima)
-
-The majority of the questions were collected from:
-
-* https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
-* https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
+* Ben
 
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
@@ -253,3 +249,5 @@ Some questions are 'borrowed' from other great references like:
 * https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
 * https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
 * http://slideshare.net/kavyasri790693/linux-admin-interview-questions
+* https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
+* https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
