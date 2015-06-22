@@ -42,7 +42,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
 * Why we must choose you?
 * What function does DNS play on a network?
-* What is HTTP?
+* What is HTTP? 
 * What is an HTTP proxy and how does it work?
 * Describe briefly how HTTPS works.
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
@@ -53,31 +53,31 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 ####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
-* What is the name and the UID of the administrator user?
-* How to list all files, including hidden one, in a directory?
-* What is the Unix/Linux command to remove a directory and its contents?
-* Which command will show you free/used memory? Does free memory exist on Linux?
-* How to search for the string "my konfi is the best" in files of a directory recursively?
-* How to connect to a remote server or what is SSH?
-* How to get all environment variables and how can you use them?
-* I get "command not found" when I run ```ifconfig -a```. What can be wrong?
-* What happens if I type TAB-TAB?
-* What command will show the available disk space on the Unix/Linux system?
-* What commands do you know that can be used to check DNS records?
-* What Unix/Linux commands will alter a files ownership, files permissions?
-* What does ```chmod +x FILENAME```do?
-* What does the permission 0750 on a file mean?
-* What does the permission 0750 on a directory mean?
-* How to add a new system user without login permissions?
-* How to add/remove a group from a user?
-* What is a bash alias?
-* How do you set the mail address of the root/a user?
-* What does CTRL-c do?
-* What is in /etc/services?
-* How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
-* What is the difference between UNIX and Linux.
-* What is the difference between Telnet and SSH?
-* Explain the three load averages and what do they indicate.
+* What is the name and the UID of the administrator user? Answer:`0`
+* How to list all files, including hidden one, in a directory? Answer:`ls -la`
+* What is the Unix/Linux command to remove a directory and its contents? Answer:`rm -rf <directory_name>`
+* Which command will show you free/used memory? Does free memory exist on Linux? Answer:`htop` or `top` or `vmstat`
+* How to search for the string "my konfi is the best" in files of a directory recursively? Answer:`grep -r "my konfi is the best" <directory_name>`
+* How to connect to a remote server or what is SSH? Answer:`ssh <username>@<host_ip>` [more](http://www.differencebetween.net/technology/internet/difference-between-telnet-and-ssh/)
+* How to get all environment variables and how can you use them? Answer:`env` using them `echo $PATH` 
+* I get "command not found" when I run ```ifconfig -a```. What can be wrong? Answer:`/sbin` is not part of `PATH` environment variable, do `export PATH=$PATH:/sbin`
+* What happens if I type TAB-TAB? Answer:Would show `Display all 1234 possiblilities (y/n)`
+* What command will show the available disk space on the Unix/Linux system? Answer:`df -h`
+* What commands do you know that can be used to check DNS records?Answer: `nslookup -type=A google.com`
+* What Unix/Linux commands will alter a files ownership, files permissions? Answer:`chmod`
+* What does ```chmod +x FILENAME```do? Answer: sets execute permission on the file.
+* What does the permission 0750 on a file mean? [Answer](http://meinit.nl/linux-permission-system-explained)
+* What does the permission 0750 on a directory mean? [Answer](http://meinit.nl/linux-permission-system-explained)
+* How to add a new system user without login permissions? [Answer](http://superuser.com/questions/77617/how-can-i-create-a-non-login-user)
+* How to add/remove a group from a user? [Answer](http://www.cyberciti.biz/faq/howto-linux-add-user-to-group/)
+* What is a bash alias? Answer: `alias ll="ls -l"` this will execute `ls -l` on the prompt when we execute `ll`
+* How do you set the mail address of the root/a user? [Answer](http://unix.stackexchange.com/a/26670)
+* What does CTRL-c do? Answer: sends `SIGINT` and CTRL-z sends `SIGTSTP` [more](http://askubuntu.com/a/510816)  
+* What is in /etc/services? Answer: Server to Port Translation. [more](https://access.redhat.com/articles/1761)
+* How to redirect STDOUT and STDERR in bash? Answer: `(> /dev/null 2>&1)` 
+* What is the difference between UNIX and Linux. Answer: UNIX commercial proprietary OS, Linux is Free and Opensourve [more](http://www.golinuxhub.com/2014/04/what-is-differencecomparison-between.html) 
+* What is the difference between Telnet and SSH? Answer: Both network Communication protocol, telnet unsecure (plain-text), ssh is secure shell. [more](http://www.differencebetween.net/technology/internet/difference-between-telnet-and-ssh/)
+* Explain the three load averages and what do they indicate. [Answer](http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages)
 
 
 
@@ -93,11 +93,11 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
  * ```wget```
  * ```watch```
  * ```tail```
-* What does a ```&``` after a command do?
-* What does ```& disown``` after a command do?
+* What does a ```&``` after a command do? Runs the command in background. 
+* What does ```& disown``` after a command do? 
 * What is a packet filter and how does it work?
-* What is Virtual Memory?
-* What is swap and what is it used for?
+* What is Virtual Memory? 
+* What is swap and what is it used for? 
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
 * Are there any other RRs and what are they used for?
 * What is a Split-Horizon DNS?
@@ -216,29 +216,35 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
-* A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
-* I've lost my root password, what can I do?
+* A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this? `busybox chmod +x /bin/chmod`
+* I've lost my root password, what can I do? Answer: Login as single user mode and recover the password. 
 * I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
 * If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
-* You come across a random computer and it appears to be a command console for the universe. What is the first thing you type?
-* Tell me about a creative way that you've used SSH?
-* You have deleted by error a running script, what could you do to restore it?
+* You come across a random computer and it appears to be a command console for the universe. What is the first thing you type? `pwd` 
+* Tell me about a creative way that you've used SSH? 
+* You have deleted by error a running script, what could you do to restore it? 
 
 
 ####[[⬆]](#toc) <a name='demo'>Demo Time:</a>
 
-* Unpack test.tar.gz without man pages or google.
-* Remove all "*.pyc" files from testdir recursively?
-* Search for "my konfu is the best" in all *.py files.
-* Replace the occurrence of "my konfu is the best" with "I'm a linux jedi master" in all *.txt files.
-* Test if port 443 on a machine with IP address X.X.X.X is reachable.
-* Get http://myinternal.webserver.local/test.html via telnet.
-* How to send an email without a mail client, just on the command line?
-* Write a ```get_prim``` method in python/perl/bash/pseudo.
-* Find all files which have been accessed within the last 30 days.
-* Explain the following command ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
+* Unpack test.tar.gz without man pages or google. `tar -xvzf test.tar.gz`
+* Remove all "*.pyc" files from testdir recursively? `find . -name "*.pyc" -exec rm -rf {} +`
+* Search for "my konfu is the best" in all *.py files. `grep --color -r "my konfu is the best" *.py`
+* Replace the occurrence of "my konfu is the best" with "I'm a linux jedi master" in all *.txt files. `find . -name "*.py" -exec sed -i 's/my\ konfu\ is\ the\ best/I'm\ a\ linux\ jedi\ master/g' {} +`
+* Test if port 443 on a machine with IP address X.X.X.X is reachable. `telnet X.X.X.X 443`
+* Get http://myinternal.webserver.local/test.html via telnet. 
+
+    step 1: `telnet myinternal.webserver.local 80` <enter>
+    step 2: `GET /test.html HTTP/1.1` <enter>
+
+* How to send an email without a mail client, just on the command line? `echo "This is my Mail" | mailx -v -A gmail_account_in_mailrc -s "This is my Subject" ahmed@mail.com`
+* Write a ```get_prim``` method in python/perl/bash/pseudo. `SEE END OF README`
+* Find all files which have been accessed within the last 30 days. `find <src_directory> -mmin 43200` (43200 minutes).  
+* Explain the following command ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log``` - Number if different users running the server.
 * Write a script to list all the differences between two directories.
-* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occured every hour or a specific hour.
+* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occured every hour or a specific hour. ```for item in ERRORCODE1 ERRORCODE2 ERRORCODE3 ERRORCODE4; do echo ERROR CODE $item : `find <src_dir> -cmin -60 -exec grep $item {} + | wc -l`;  done```
+
+
 
 
 ####[[⬆]](#toc) <a name='references'>Other Great References:</a>
@@ -251,3 +257,22 @@ Some questions are 'borrowed' from other great references like:
 * http://slideshare.net/kavyasri790693/linux-admin-interview-questions
 * https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
 * https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
+
+
+### `get_prime` function in python.
+
+    def get_prime(num):
+        print num
+    
+        if num <= 1:
+            print "Not a Prime Number"
+        else:
+            for i in range(2, num):
+                if num%i == 0:
+                    print num, "is Not Prime"
+                    print i, "x", num//i, "=", num
+                    break
+            else:
+                print "Prime"
+    
+    get_prime(int(input("Enter a Number:")))
