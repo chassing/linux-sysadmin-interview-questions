@@ -94,43 +94,43 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
  * ```watch```
  * ```tail```
 * What does a ```&``` after a command do? Runs the command in background. 
-* What does ```& disown``` after a command do? 
-* What is a packet filter and how does it work?
-* What is Virtual Memory? 
-* What is swap and what is it used for? 
+* What does ```& disown``` after a command do? [Answer](http://unix.stackexchange.com/a/148698)
+* What is a packet filter and how does it work? [Answer](https://www.centos.org/docs/5/html/5.2/Deployment_Guide/s1-iptables-packetfiltering.html)
+* What is Virtual Memory? [Answer](http://www.tldp.org/LDP/sag/html/vm-intro.html)
+* What is swap and what is it used for? [Answer](https://www.centos.org/docs/5/html/5.2/Deployment_Guide/s1-swap-what-is.html)
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
 * Are there any other RRs and what are they used for?
-* What is a Split-Horizon DNS?
-* What is the sticky bit?
-* What does the immutable bit to a file?
-* What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
-* What is an inode and what fields are stored in an inode?
-* Howto force/trigger a file system check on next reboot?
-* What is SNMP and what is it used for?
-* What is a runlevel and how to get the current runlevel?
-* What is SSH port forwarding?
-* What is the difference between local and remote port forwarding?
-* What are the steps to add a user to a system without using useradd/adduser?
+* What is a Split-Horizon DNS? [Answer](https://en.wikipedia.org/wiki/Split-horizon_DNS)
+* What is the sticky bit? [Answer](http://meinit.nl/linux-permission-system-explained)
+* What does the immutable bit to a file? A file with an immutable attribute can not be -> `Modified`, `Deleted`, `Renamed`, `No soft` or `hard link` created by anyone including `root` user :) [more](http://www.cyberciti.biz/tips/linux-password-trick.html).
+* What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink? [Answer](http://www.cyberciti.biz/tips/understanding-unixlinux-symbolic-soft-and-hard-links.html)
+* What is an inode and what fields are stored in an inode? [Answer](https://en.wikipedia.org/wiki/Inode) [Answer](http://www.thegeekstuff.com/2012/01/linux-inodes/)
+* How to force/trigger a file system check on next reboot? Answer: All you need to do is just create empty file called /forcefsck. [more](http://www.cyberciti.biz/faq/linux-force-fsck-on-the-next-reboot-or-boot-sequence/)
+* What is SNMP and what is it used for? Answer: Simple Network Management Protocol. [more](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol)
+* What is a runlevel and how to get the current runlevel? [Answer](http://www.cyberciti.biz/tips/linux-changing-run-levels.html)
+* What is SSH port forwarding? [Answer](https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding)
+* What is the difference between local and remote port forwarding? [Answer](https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding)
+* What are the steps to add a user to a system without using useradd/adduser? [Answer](http://unix.stackexchange.com/a/153227)
 * What is MAJOR and MINOR numbers of special files?
-* Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space.
-* Describe a scenario when deleting a file, but 'df' not showing the space being freed.
-* Describe how 'ps' works.
-* What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
-* Explain briefly each one of the process states.
-* How to know which process listens on a specific port?
-* You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it?
-* Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does.
+* Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space? Answer: `inode` Table is full, no space to create new file `inode`, but there is Disk Space Available. [more](https://en.wikipedia.org/wiki/Inode) [more](http://www.thegeekstuff.com/2012/01/linux-inodes/)
+* Describe a scenario when deleting a file, but 'df' not showing the space being freed? Answer: While deleting a file, if another process is holding the file then the file will not be deleted, we need to `kill` the process or `reboot` the system.
+* Describe how 'ps' works. Answer: `man ps`
+* What happens to a child process that dies and has no parent process to wait for it and what’s bad about this? Answer: Creates a `orphan` child with `init` as its parent.
+* Explain briefly each one of the process states. [Answer](https://en.wikipedia.org/wiki/Process_state)
+* How to know which process listens on a specific port? Answer: `sudo netstat -plant`
+* You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it? Answer: using `tee`. Ex: `sh bash_script.sh | tee logger`
+* Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does. Answer: Enables IP Forwarding, can also be done in `sysctl.conf` using the parameter `net.ipv4.ip_forward = 1`. [more](http://www.ducea.com/2006/08/01/how-to-enable-ip-forwarding-in-linux/)
 * Describe briefly the steps you need to take in order to create and install a valid certificate for the site https://foo.example.com.
 * Can you have several HTTPS virtual hosts sharing the same IP?
 * What is a wildcard certificate?
-* Which Linux file types to you know?
+* Which Linux file types do you know?
 * What is the difference between a process and a thread? And parent and child processes after a fork system call?
 * What is the difference between exec and fork?
 * What is "nohup" used for?
 * What is the difference between these two commands?
- * ```myvar=hello```
- * ```export myvar=hello```
-* How many NTP servers would you configure in your local ntp.conf?
+ * ```myvar=hello``` Answer: assigns value `hello` to `myvars`, accessible only in the current script.
+ * ```export myvar=hello``` Answer: sets environment variable, which can be accessed by the current session.
+* How many NTP servers would you configure in your local ntp.conf? Answer: Atleast 3.
 * What does the column 'reach' mean in ```ntpq -p``` output?
 
 
