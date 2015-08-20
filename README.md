@@ -136,7 +136,6 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
 
-* What is the difference between processes and threads?
 * What is a tunnel and how you can bypass a http proxy?
 * What is the difference between IDS and IPS?
 * What shortcuts do you use on a regular basis?
@@ -202,7 +201,6 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is a dynamically/statically linked file?
 * What does "configure && make && make install"?
 * What is puppet/chef/ansible used for?
-* How do you create a new mysql user?
 * How do you create a new postgres user?
 * What is a virtual IP address? What is a cluster?
 * How print the strings of printable characters in files?
