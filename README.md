@@ -118,6 +118,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
 * Explain briefly each one of the process states.
 * How to know which process listens on a specific port?
+* What is a zombie process and what could be the cause of it?
 * You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it?
 * Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does.
 * Describe briefly the steps you need to take in order to create and install a valid certificate for the site https://foo.example.com.
