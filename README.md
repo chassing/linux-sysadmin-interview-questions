@@ -133,7 +133,9 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
  * ```export myvar=hello```
 * How many NTP servers would you configure in your local ntp.conf?
 * What does the column 'reach' mean in ```ntpq -p``` output?
-
+* You need to upgrade kernel at 100-1000 servers, how you would do this?
+* How can you get Host, Channel, ID, LUN of SCSI disk?
+* How can you limit process memory usage?
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
 
@@ -182,6 +184,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is SNAT and when should be used?
 * Explain how could you ssh login into a Linux system that DROPs all new incomming packets using a SSH tunnel.
 * How do you stop a DDoS?
+* How can you see content of ip packet?
 
 
 ####[[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
