@@ -203,15 +203,15 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Can you describe your workflow when you create a script?
 * What is GIT?
 * What is a dynamically/statically linked file?
-* What does "configure && make && make install"?
+* What does "configure && make && make install" do?
 * What is puppet/chef/ansible used for?
 * How do you create a new postgres user?
 * What is a virtual IP address? What is a cluster?
-* How print the strings of printable characters in files?
-* How look shared library dependencies?
+* How do you print all strings of printable characters present in a file?
+* How do you find shared library dependencies?
 * What is Automake and Autoconf?
 * ./configure shows an error that libfoobar is missing on your system, how could you fix this, what could be wrong?
-* Advantages/disadvantages of script vs compiled program.
+* What are the Advantages/disadvantages of script vs compiled program?
 * What's the relationship between continuous delivery and DevOps?
 * What are the important aspects of a system of continous integration and deployment?
 
