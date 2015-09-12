@@ -124,7 +124,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Describe briefly the steps you need to take in order to create and install a valid certificate for the site https://foo.example.com.
 * Can you have several HTTPS virtual hosts sharing the same IP?
 * What is a wildcard certificate?
-* Which Linux file types to you know?
+* Which Linux file types do you know?
 * What is the difference between a process and a thread? And parent and child processes after a fork system call?
 * What is the difference between exec and fork?
 * What is "nohup" used for?
