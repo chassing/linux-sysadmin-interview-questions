@@ -83,7 +83,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
-* What do the following commands do?
+* What do the following commands do and how would you use them?
  * ```tee```
  * ```awk```
  * ```tr```
@@ -92,6 +92,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
  * ```curl```
  * ```wget```
  * ```watch```
+ * ```head```
  * ```tail```
 * What does a ```&``` after a command do?
 * What does ```& disown``` after a command do?
