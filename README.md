@@ -54,7 +54,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 ####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
 * What is the name and the UID of the administrator user?
-* How to list all files, including hidden one, in a directory?
+* How to list all files, including hidden ones, in a directory?
 * What is the Unix/Linux command to remove a directory and its contents?
 * Which command will show you free/used memory? Does free memory exist on Linux?
 * How to search for the string "my konfi is the best" in files of a directory recursively?
@@ -94,7 +94,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
  * ```watch```
  * ```head```
  * ```tail```
-* What does a ```&``` after a command do?
+* What does an ```&``` after a command do?
 * What does ```& disown``` after a command do?
 * What is a packet filter and how does it work?
 * What is Virtual Memory?
@@ -103,10 +103,10 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Are there any other RRs and what are they used for?
 * What is a Split-Horizon DNS?
 * What is the sticky bit?
-* What does the immutable bit to a file?
+* What does the immutable bit do to a file?
 * What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
 * What is an inode and what fields are stored in an inode?
-* Howto force/trigger a file system check on next reboot?
+* How to force/trigger a file system check on next reboot?
 * What is SNMP and what is it used for?
 * What is a runlevel and how to get the current runlevel?
 * What is SSH port forwarding?
@@ -137,6 +137,8 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * You need to upgrade kernel at 100-1000 servers, how you would do this?
 * How can you get Host, Channel, ID, LUN of SCSI disk?
 * How can you limit process memory usage?
+* What is bash quick substitution/caret replace(^x^y)?
+* Do you know of any alternative shells? If so, have you used any?
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
 
@@ -182,10 +184,10 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * When a client running a web browser connects to a web server, what is the source port and what is the destination port of the connection?
 * How do you add an IPv6 address to a specific interface?
 * You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
-* What is SNAT and when should be used?
+* What is SNAT and when should it be used?
 * Explain how could you ssh login into a Linux system that DROPs all new incomming packets using a SSH tunnel.
-* How do you stop a DDoS?
-* How can you see content of ip packet?
+* How do you stop a DDoS attack?
+* How can you see content of an ip packet?
 
 
 ####[[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
