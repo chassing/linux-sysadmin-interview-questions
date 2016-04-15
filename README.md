@@ -208,6 +208,8 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is a dynamically/statically linked file?
 * What does "configure && make && make install" do?
 * What is puppet/chef/ansible used for?
+* What is Nagios/Zenoss/NewRelic used for?
+* What is the difference between Containers and VMs?
 * How do you create a new postgres user?
 * What is a virtual IP address? What is a cluster?
 * How do you print all strings of printable characters present in a file?
@@ -217,7 +219,6 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What are the Advantages/disadvantages of script vs compiled program?
 * What's the relationship between continuous delivery and DevOps?
 * What are the important aspects of a system of continous integration and deployment?
-
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
