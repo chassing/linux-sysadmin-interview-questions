@@ -185,7 +185,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How do you add an IPv6 address to a specific interface?
 * You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
 * What is SNAT and when should it be used?
-* Explain how could you ssh login into a Linux system that DROPs all new incomming packets using a SSH tunnel.
+* Explain how could you ssh login into a Linux system that DROPs all new incoming packets using a SSH tunnel.
 * How do you stop a DDoS attack?
 * How can you see content of an ip packet?
 * What is IPoAC (RFC 1149)?
@@ -219,7 +219,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * ./configure shows an error that libfoobar is missing on your system, how could you fix this, what could be wrong?
 * What are the Advantages/disadvantages of script vs compiled program?
 * What's the relationship between continuous delivery and DevOps?
-* What are the important aspects of a system of continous integration and deployment?
+* What are the important aspects of a system of continuous integration and deployment?
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
@@ -246,7 +246,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Find all files which have been accessed within the last 30 days.
 * Explain the following command ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
 * Write a script to list all the differences between two directories.
-* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occured every hour or a specific hour.
+* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occurred every hour or a specific hour.
 
 
 ####[[⬆]](#toc) <a name='references'>Other Great References:</a>
