@@ -188,6 +188,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Explain how could you ssh login into a Linux system that DROPs all new incomming packets using a SSH tunnel.
 * How do you stop a DDoS attack?
 * How can you see content of an ip packet?
+* What is IPoAC (RFC 1149)?
 
 
 ####[[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
