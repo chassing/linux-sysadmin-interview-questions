@@ -113,6 +113,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is the difference between local and remote port forwarding?
 * What are the steps to add a user to a system without using useradd/adduser?
 * What is MAJOR and MINOR numbers of special files?
+* Describe the mknod command and when you'd use it.
 * Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space.
 * Describe a scenario when deleting a file, but 'df' not showing the space being freed.
 * Describe how 'ps' works.
@@ -208,7 +209,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Can you describe your workflow when you create a script?
 * What is GIT?
 * What is a dynamically/statically linked file?
-* What does "configure && make && make install" do?
+* What does "./configure && make && make install" do?
 * What is puppet/chef/ansible used for?
 * What is Nagios/Zenoss/NewRelic used for?
 * What is the difference between Containers and VMs?
@@ -218,7 +219,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How do you find shared library dependencies?
 * What is Automake and Autoconf?
 * ./configure shows an error that libfoobar is missing on your system, how could you fix this, what could be wrong?
-* What are the Advantages/disadvantages of script vs compiled program?
+* What are the advantages/disadvantages of script vs compiled program?
 * What's the relationship between continuous delivery and DevOps?
 * What are the important aspects of a system of continuous integration and deployment?
 
