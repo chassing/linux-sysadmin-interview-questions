@@ -78,7 +78,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is the difference between UNIX and Linux.
 * What is the difference between Telnet and SSH?
 * Explain the three load averages and what do they indicate.
-
+* Can you name a lower-case letter that is not a valid option for GNU ```ls```?
 
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
