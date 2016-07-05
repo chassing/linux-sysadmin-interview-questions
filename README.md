@@ -24,7 +24,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 * [moregeek](https://github.com/moregeek)
 * [typhonius](https://github.com/typhonius)
-* martin
+* [schumar](https://github.com/schumar)
 * [negesti](https://github.com/negesti)
 * peter
 * [andreashappe](https://github.com/andreashappe)
