@@ -257,7 +257,5 @@ Some questions are 'borrowed' from other great references like:
 
 * https://github.com/darcyclarke/Front-end-Developer-Interview-Questions
 * https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
-* https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
-* http://slideshare.net/kavyasri790693/linux-admin-interview-questions
-* https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
 * https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
+* http://slideshare.net/kavyasri790693/linux-admin-interview-questions
