@@ -77,7 +77,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
 * What is the difference between UNIX and Linux.
 * What is the difference between Telnet and SSH?
-* Explain the three load averages and what do they indicate.
+* Explain the three load averages and what do they indicate. What command can be used to view the load averages?
 * Can you name a lower-case letter that is not a valid option for GNU ```ls```?
 
 
