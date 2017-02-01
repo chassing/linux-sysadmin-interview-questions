@@ -212,6 +212,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What does "./configure && make && make install" do?
 * What is puppet/chef/ansible used for?
 * What is Nagios/Zenoss/NewRelic used for?
+* What is Jenkins/TeamCity/GoCI used for?
 * What is the difference between Containers and VMs?
 * How do you create a new postgres user?
 * What is a virtual IP address? What is a cluster?
@@ -233,6 +234,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Tell me about a creative way that you've used SSH?
 * You have deleted by error a running script, what could you do to restore it?
 * What will happen on 19 January 2038?
+* How to reboot server when reboot command is not responding?
 
 
 ####[[⬆]](#toc) <a name='demo'>Demo Time:</a>
