@@ -141,6 +141,8 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is bash quick substitution/caret replace(^x^y)?
 * Do you know of any alternative shells? If so, have you used any?
 * What is a tarpipe (or, how would you go about copying everything, including hardlinks and special files, from one server to another)?
+* How can you tell if the httpd package was already installed?
+* How can you list the contents of a package?
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
 
