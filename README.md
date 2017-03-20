@@ -32,6 +32,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * [biyanisuraj](https://github.com/biyanisuraj)
 * [pedroguima](https://github.com/pedroguima)
 * Ben
+* [bharatnc](https://github.com/bharatnc)
 
 
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
@@ -166,6 +167,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What's LD_PRELOAD and when it's used?
 * You ran a binary and nothing happened. How would you debug this?
 * What are cgroups? Can you specify a scenario where you could use them?
+* How can you remove a file-name with non-printable/non-type-able characters?
 
 
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
