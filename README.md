@@ -164,7 +164,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What's LD_PRELOAD and when it's used?
 * You ran a binary and nothing happened. How would you debug this?
 * What are cgroups? Can you specify a scenario where you could use them?
-* How can you remove/delete a file with non-printable/non-type-able characters?
+* How can you remove/delete a file with file-name consisting of only non-printable/non-type-able characters?
 * How can you increase or decrease the priority of a process in Linux?
 * What are run-levels in Linux?
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
