@@ -167,9 +167,9 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What's LD_PRELOAD and when it's used?
 * You ran a binary and nothing happened. How would you debug this?
 * What are cgroups? Can you specify a scenario where you could use them?
-* How can you remove a file-name with non-printable/non-type-able characters?
-
-
+* How can you remove/delete a file with file-name consisting of only non-printable/non-type-able characters?
+* How can you increase or decrease the priority of a process in Linux?
+* What are run-levels in Linux?
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
 
 * A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How can you close this bad socket/file descriptor without killing the process?
@@ -196,6 +196,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How do you stop a DDoS attack?
 * How can you see content of an ip packet?
 * What is IPoAC (RFC 1149)?
+
 
 
 ####[[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
