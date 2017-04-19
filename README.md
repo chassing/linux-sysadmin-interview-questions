@@ -170,6 +170,8 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How can you remove/delete a file with file-name consisting of only non-printable/non-type-able characters?
 * How can you increase or decrease the priority of a process in Linux?
 * What are run-levels in Linux?
+
+
 ####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
 
 * A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How can you close this bad socket/file descriptor without killing the process?
