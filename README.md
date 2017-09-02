@@ -1,7 +1,7 @@
-Linux System Administrator/DevOps Interview Questions
+Linux System Administrator/Operations Interview Questions
 ====================================================
 
-A collection of linux sysadmin/devops interview questions. Feel free to contribute via pull requests, issues or email messages.
+A collection of linux sysadmin/operations interview questions. Feel free to contribute via pull requests, issues or email messages.
 
 
 ## <a name='toc'>Table of Contents</a>
@@ -14,7 +14,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
   1. [Expert Linux Questions](#expert)
   1. [Networking Questions](#network)
   1. [MySQL Questions](#mysql)
-  1. [DevOps Questions](#devop)
+  1. [Operations Questions](#devop)
   1. [Fun Questions](#fun)
   1. [Demo Time](#demo)
   1. [Other Great References](#references)
@@ -215,7 +215,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How do you check which jobs are running?
 * How would you take a backup of a MySQL database?
 
-####[[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
+####[[⬆]](#toc) <a name='devop'>Operations Questions:</a>
 
 * Can you describe your workflow when you create a script?
 * What is GIT?
