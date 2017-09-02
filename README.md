@@ -80,7 +80,9 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is the difference between Telnet and SSH?
 * Explain the three load averages and what do they indicate. What command can be used to view the load averages?
 * Can you name a lower-case letter that is not a valid option for GNU ```ls```?
-
+* What is a Linux kernel module?
+* Walk me through the steps in booting into single user mode to troubleshoot a problem.
+* Walk me through the steps you'd take to troubleshoot a 404 error on a web application you administer.
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
@@ -145,6 +147,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How can you tell if the httpd package was already installed?
 * How can you list the contents of a package?
 * How can you determine which package is better: openssh-server-5.3p1-118.1.el6_8.x86_64 or openssh-server-6.6p1-1.el6.x86_64 ?
+* Can you explain to me the difference between block based, and object based storage?
 
 ####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
 
@@ -210,7 +213,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Describe briefly the steps you need to follow in order to create a simple master/slave cluster.
 * Why should you run "mysql_secure_installation" after installing MySQL?
 * How do you check which jobs are running?
-
+* How would you take a backup of a MySQL database?
 
 ####[[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
 
@@ -231,6 +234,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What are the advantages/disadvantages of script vs compiled program?
 * What's the relationship between continuous delivery and DevOps?
 * What are the important aspects of a system of continuous integration and deployment?
+* How would you enable network file sharing within AWS that would allow EC2 instances in multiple availability zones to share data?
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
