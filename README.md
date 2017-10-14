@@ -20,7 +20,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
   1. [Other Great References](#references)
 
 
-####[[⬆]](#toc) <a name='contributors'>Contributors:</a>
+#### [[⬆]](#toc) <a name='contributors'>Contributors:</a>
 
 * [moregeek](https://github.com/moregeek)
 * [typhonius](https://github.com/typhonius)
@@ -35,7 +35,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * [bharatnc](https://github.com/bharatnc)
 
 
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
+#### [[⬆]](#toc) <a name='general'>General Questions:</a>
 
 * What did you learn yesterday/this week?
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
@@ -52,7 +52,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Describe the general file system hierarchy of a Linux system.
 
 
-####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
+#### [[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
 * What is the name and the UID of the administrator user?
 * How to list all files, including hidden ones, in a directory?
@@ -84,7 +84,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Walk me through the steps in booting into single user mode to troubleshoot a problem.
 * Walk me through the steps you'd take to troubleshoot a 404 error on a web application you administer.
 
-####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
+#### [[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
 * What do the following commands do and how would you use them?
  * ```tee```
@@ -149,7 +149,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How can you determine which package is better: openssh-server-5.3p1-118.1.el6_8.x86_64 or openssh-server-6.6p1-1.el6.x86_64 ?
 * Can you explain to me the difference between block based, and object based storage?
 
-####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
+#### [[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
 
 * What is a tunnel and how you can bypass a http proxy?
 * What is the difference between IDS and IPS?
@@ -175,12 +175,12 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What are run-levels in Linux?
 
 
-####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
+#### [[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
 
 * A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How can you close this bad socket/file descriptor without killing the process?
 
 
-####[[⬆]](#toc) <a name='network'>Networking Questions:</a>
+#### [[⬆]](#toc) <a name='network'>Networking Questions:</a>
 
 * What is localhost and why would ```ping localhost``` fail?
 * What is the similarity between "ping" & "traceroute" ? How is traceroute able to find the hops.
@@ -204,7 +204,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 
 
-####[[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
+#### [[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
 
 * How do you create a user?
 * How do you provide privileges to a user?
@@ -215,7 +215,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How do you check which jobs are running?
 * How would you take a backup of a MySQL database?
 
-####[[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
+#### [[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
 
 * Can you describe your workflow when you create a script?
 * What is GIT?
@@ -236,7 +236,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What are the important aspects of a system of continuous integration and deployment?
 * How would you enable network file sharing within AWS that would allow EC2 instances in multiple availability zones to share data?
 
-####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
+#### [[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
 * A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
 * I've lost my root password, what can I do?
@@ -249,7 +249,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How to reboot server when reboot command is not responding?
 
 
-####[[⬆]](#toc) <a name='demo'>Demo Time:</a>
+#### [[⬆]](#toc) <a name='demo'>Demo Time:</a>
 
 * Unpack test.tar.gz without man pages or google.
 * Remove all "*.pyc" files from testdir recursively?
@@ -265,7 +265,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occurred every hour or a specific hour.
 
 
-####[[⬆]](#toc) <a name='references'>Other Great References:</a>
+#### [[⬆]](#toc) <a name='references'>Other Great References:</a>
 
 Some questions are 'borrowed' from other great references like:
 
