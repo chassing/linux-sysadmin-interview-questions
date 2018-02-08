@@ -66,7 +66,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What command will show the available disk space on the Unix/Linux system?
 * What commands do you know that can be used to check DNS records?
 * What Unix/Linux commands will alter a files ownership, files permissions?
-* What does ```chmod +x FILENAME```do?
+* What does ```chmod +x FILENAME``` do?
 * What does the permission 0750 on a file mean?
 * What does the permission 0750 on a directory mean?
 * How to add a new system user without login permissions?
@@ -195,7 +195,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * A TCP connection on a network can be uniquely defined by 4 things. What are those things?
 * When a client running a web browser connects to a web server, what is the source port and what is the destination port of the connection?
 * How do you add an IPv6 address to a specific interface?
-* You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
+* You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives you the response ```sendmsg: operation not permitted```. What could be wrong?
 * What is SNAT and when should it be used?
 * Explain how could you ssh login into a Linux system that DROPs all new incoming packets using a SSH tunnel.
 * How do you stop a DDoS attack?
