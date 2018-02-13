@@ -58,7 +58,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How to list all files, including hidden ones, in a directory?
 * What is the Unix/Linux command to remove a directory and its contents?
 * Which command will show you free/used memory? Does free memory exist on Linux?
-* How to search for the string "my konfi is the best" in files of a directory recursively?
+* How to search for the string "my konfu is the best" in files of a directory recursively?
 * How to connect to a remote server or what is SSH?
 * How to get all environment variables and how can you use them?
 * I get "command not found" when I run ```ifconfig -a```. What can be wrong?
