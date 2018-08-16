@@ -178,6 +178,10 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 #### [[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
 
 * A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How can you close this bad socket/file descriptor without killing the process?
+* What do you control with swapiness?
+* How do you change TCP stack buffers? How do you calculate it?
+* What is Huge Tables? Why isn't it enabled by default? Why and when use it?
+* What is LUKS? How to use it?
 
 
 #### [[⬆]](#toc) <a name='network'>Networking Questions:</a>
