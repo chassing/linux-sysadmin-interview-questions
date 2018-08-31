@@ -205,6 +205,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How do you stop a DDoS attack?
 * How can you see content of an ip packet?
 * What is IPoAC (RFC 1149)?
+* What will happen when you bind port 0?
 
 
 
