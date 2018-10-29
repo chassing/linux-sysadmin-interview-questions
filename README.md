@@ -50,6 +50,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * What is a level 0 backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
+* Which difference have between public and private SSH key?
 
 
 #### [[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
@@ -74,6 +75,8 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is a bash alias?
 * How do you set the mail address of the root/a user?
 * What does CTRL-c do?
+* What does CTRL-d do?
+* What does CTRL-z do?
 * What is in /etc/services?
 * How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
 * What is the difference between UNIX and Linux.
@@ -83,6 +86,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is a Linux kernel module?
 * Walk me through the steps in booting into single user mode to troubleshoot a problem.
 * Walk me through the steps you'd take to troubleshoot a 404 error on a web application you administer.
+* What is ICMP protocol? Why do you need to use?
 
 #### [[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
@@ -97,6 +101,13 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
  * ```watch```
  * ```head```
  * ```tail```
+ * ```less```
+ * ```cat```
+ * ```touch```
+ * ```sar```
+ * ```netstat```
+ * ```tcpdump```
+ * ```lsof```
 * What does an ```&``` after a command do?
 * What does ```& disown``` after a command do?
 * What is a packet filter and how does it work?
