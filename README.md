@@ -150,7 +150,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How can you get Host, Channel, ID, LUN of SCSI disk?
 * How can you limit process memory usage?
 * What is bash quick substitution/caret replace(^x^y)?
-* Have you used any shell other than BASH? Could you explain what some of the advantages and disadvantages between them.
+* Have you used any shells other than BASH? Could you explain what some of the advantages and disadvantages between them.
 * What is a tarpipe (or, how would you go about copying everything, including hardlinks and special files, from one server to another)?
 * How can you tell if the httpd package has been installed?
 * How can you list the contents of a package?
