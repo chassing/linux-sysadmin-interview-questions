@@ -50,7 +50,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * What is a level 0 backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
-* Which difference have between public and private SSH key?
+* What is the difference between public and private SSH keys?
 
 
 #### [[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
